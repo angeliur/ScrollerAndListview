@@ -10,13 +10,31 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="listview测试"
-        android:onClick="openListviewTest"/>
+        android:onClick="btnViewHolder"
+        android:text="ViewHolder" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="scroller测试"
-        android:onClick="openScrollerTest"/>
+        android:onClick="btnScrollHideListView"
+        android:text="Scroll Hide" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnFlexible"
+        android:text="Flexible ListView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnChatItem"
+        android:text="Chat Item" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnFocus"
+        android:text="Focus" />
 
 </LinearLayout>

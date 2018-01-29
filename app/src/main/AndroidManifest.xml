@@ -22,6 +22,11 @@
         <activity android:name=".scroller.DragViewGroupTestActivity"/>
 
         <activity android:name=".listview.ListviewTestActivity"/>
+        <activity android:name=".listview.FocusListViewTest"/>
+        <activity android:name=".listview.ScrollHideListViewTest"/>
+        <activity android:name=".listview.ChatItemListViewTest"/>
+        <activity android:name=".listview.FlexibleListViewTest"/>
+        <activity android:name=".listview.NotifyTest"/>
     </application>
 
 </manifest>
